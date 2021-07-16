@@ -10,6 +10,6 @@ spec:
   ports:
   - name: "result-service"
     port: 5001
-    targetPort: 80
+    targetPort: 8000
   selector:
     app: result

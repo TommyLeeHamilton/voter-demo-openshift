@@ -12,7 +12,7 @@ spec:
   ports:
   - name: "vote-service"
     port: 5000
-    targetPort: 80
+    targetPort: 8000
   selector:
     app: vote
   
